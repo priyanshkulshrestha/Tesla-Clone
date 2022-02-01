@@ -36,7 +36,7 @@ export default Section;
 const Wrap = styled.div`
     height: 100vh;
     width: 100vw;
-    background: ${props => `url("/public/images/${props.bgImg}")`};
+    background: ${props => `url("/Tesla-Clone/${props.bgImg}")`};
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
