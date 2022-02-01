@@ -24,7 +24,7 @@ const Section = (props) => {
             
         </ButtonGroup>
     </Fade>
-        <DownArrow src="/images/down-arrow.svg"/>
+        <DownArrow src="Tesla-clone/images/down-arrow.svg"/>
       </Buttons>
   </Wrap>;
 };
@@ -36,7 +36,7 @@ export default Section;
 const Wrap = styled.div`
     height: 100vh;
     width: 100vw;
-    background: ${props => `url("/Tesla-Clone/${props.bgImg}")`};
+    background: ${props => `url("Tesla-clone/images/${props.bgImg}")`};
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
